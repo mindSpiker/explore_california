@@ -4,6 +4,7 @@ iOS Style Guide
 
 ## Contents
 * [Commenting Functions](#commenting_functions)
+*  [Commenting Examples](#commenting-examples)
 * [Conditionals](#conditionals)
 
 
@@ -14,6 +15,7 @@ iOS Style Guide
 - To assist in commenting functions and to help standardize you can use the [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) plug-in.
 - When commenting functions for Objective C use the following format:
 
+### Examples
 **Example**
 
 ```objc
