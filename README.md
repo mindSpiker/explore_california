@@ -50,6 +50,7 @@ iOS Style Guide
 ```
 
 - Only use "// TODO" (space required so that it does not raise a warning) with an accompanying JIRA, and reference the "// TODO" comment from the JIRA to provide context.
+
 <a name="#conditionals"></a>
 ## Conditionals
  - Use the following guide for conditionals involving objects, strings, arrays, and numbers.
