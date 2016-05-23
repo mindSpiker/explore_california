@@ -8,6 +8,7 @@ iOS Style Guide
 
 
 
+
 <a name="commenting_functions"></a>
 ## Commenting Functions
 - To assist in commenting functions and to help standardize you can use the [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) plug-in.
@@ -53,22 +54,45 @@ iOS Style Guide
 
 <a name="#conditionals"></a>
 ## Conditionals
- - Use the following guide for conditionals involving objects, strings, arrays, and numbers.
+
+### Ternary Operator
+- Take advantage of the simplicity of the Ternary Operator, but don't get too complicated. Be nice to future programmers who will try to quickly understand your work. If it takes more then 2 seconds to understand the logic, use an if statement instead. Clarity > lines of code.
+- Wrap long lines in parenthesis to improve clarity.
+
+**Example**
+
+```objc
+return ([self.reviews count] == 1 ? @"1 review" : [NSString stringWithFormat:@"%d reviews", [self.reviews count]]);
 ```
-// Testing object is/isn't nil
+
+```objc
+// If checking for nil and returning value if present, you can abbreviate the operator like this
+return self.user.name ?: @"A TripAdvisor Member";
+```
+
+### If Else
+
+ - Testing object is/isn't nil
+```
 if (someObject) // do not use 'if (someObject != nil)'
 if (!someObject) // do not use 'if (someObject == nil)'
-
-// if string is nil and has characters
+```
+ - Testing string is nil and has characters
+```
 if (someString.length) // do not check nil and length separately
-
-// if array is not nil and not empty
+```
+ - Testing array is not nil and not empty
+```
 if (someArray.count) // do not check nil and length separately
+```
 
-// if numeric is not zero
+ - Testing numeric is not zero
+```
 if (someNumber) // do not use 'if (someNumber == 0)'
+```
 
-// Always use brackets with if and else statements
+ - Always use brackets with if and else statements
+```
 if (varToCheck) {
     // Even if you only have one line 
     varToCheck = false;
