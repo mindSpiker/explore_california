@@ -4,7 +4,7 @@ iOS Style Guide
 
 ## Contents
 * [Commenting Functions](#commenting_functions)
-*  [Commenting Examples](#commenting-examples)
+  * [Commenting Examples](#commenting-examples)
 * [Conditionals](#conditionals)
 
 
