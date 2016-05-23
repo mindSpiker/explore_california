@@ -8,8 +8,8 @@ iOS Style Guide
 
 
 
-
-## Commenting Functions<a name="commenting_functions"></a>
+<a name="commenting_functions"></a>
+## Commenting Functions
 - To assist in commenting functions and to help standardize you can use the [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) plug-in.
 - When commenting functions for Objective C use the following format:
 
@@ -50,8 +50,8 @@ iOS Style Guide
 ```
 
 - Only use "// TODO" (space required so that it does not raise a warning) with an accompanying JIRA, and reference the "// TODO" comment from the JIRA to provide context.
-
-## Conditionals<a name="#conditionals"></a>
+<a name="#conditionals"></a>
+## Conditionals
  - Use the following guide for conditionals involving objects, strings, arrays, and numbers.
 ```
 // Testing object is/isn't nil
