@@ -42,8 +42,8 @@ Some references to the "Official" Documentation. We follow recommendations here 
 * [Types](#types)
 * [Enums](#enums)
 * [Singletons](#singletons)
-* [Memory Management](#memory_management)
 * [Classes and Methods](#classes_and_methods)
+* [Memory Management](#memory_management)
 * [Blocks](#blocks)
 * [Exceptions and Errors](#exceptions_and_errors)
 * [Categories](#categories)
@@ -464,7 +464,7 @@ typedef NS_ENUM(NSUInteger, TAAttractionSubType) {
 - When deleting code ensure that you have removed the #imports.
 - Keep classes small, divide your code into multiple classes.
 
-<a name="menory_management"></a>
+<a name="memory_management"></a>
 ## Memory Management
 - If you write an explicit dealloc for a class, ensure it is actually getting called. This will help reduce memory leaks. See [Debugging Retain Cycles in ObjC](http://blog.reigndesign.com/blog/debugging-retain-cycles-in-objective-c-four-likely-culprits/)
 - Look for potential retain cycles/memory leaks with instruments. See [Debugging Retain Cycles in ObjC](http://blog.reigndesign.com/blog/debugging-retain-cycles-in-objective-c-four-likely-culprits/)
