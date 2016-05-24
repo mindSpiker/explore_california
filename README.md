@@ -233,10 +233,30 @@ BOOL isNegative = number >= 0 ? NO : YES;
 }
 ```
 
-<a name="if_else"></a>
-### If / Else
+<a name="conditionals"></a>
+### Conditionals
 - Don't compare against nil, or 0
 - for strings, arrays, check length count
+
+**Example**
+
+```
+// Testing object is/isn't nil
+if (someObject) // do not use 'if (someObject != nil)'
+if (!someObject) // do not use 'if (someObject == nil)'
+
+// if string is nil and has characters
+if (someString.length) // do not check nil and length separately
+
+// if array is not nil and not empty
+if (someArray.count) // do not check nil and length separately
+
+// if numeric is not zero
+if (someNumber) // do not use 'if (someNumber == 0)'
+```
+
+<a name="if_else"></a>
+### If / Else
 - For short statements, keep simple w/ 1 line (but avoid lacking braces and putting result on a separate line)
 
 **Example**
