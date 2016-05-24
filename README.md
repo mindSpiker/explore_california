@@ -48,7 +48,6 @@ Some references to the "Official" Documentation. We follow recommendations here 
 * [Exceptions and Errors](#exceptions_and_errors)
 * [Categories](#categories)
 * [Commenting Functions](#commenting_functions)
-* [Conditionals](#conditionals)
 
 
 ## Misc (need a home)
